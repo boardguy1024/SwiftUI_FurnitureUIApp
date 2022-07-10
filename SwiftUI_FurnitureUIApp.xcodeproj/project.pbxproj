@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402F80D8287AA4A900FF4369 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F80D7287AA4A900FF4369 /* Home.swift */; };
+		402F80D9287AA4A900FF4369 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F80D7287AA4A900FF4369 /* Home.swift */; };
+		402F80DB287AA68B00FF4369 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F80DA287AA68B00FF4369 /* Furniture.swift */; };
+		402F80DC287AA68B00FF4369 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F80DA287AA68B00FF4369 /* Furniture.swift */; };
 		40E653012873227D00B49EB8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E653002873227D00B49EB8 /* Tests_iOS.swift */; };
 		40E653032873227D00B49EB8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E653022873227D00B49EB8 /* Tests_iOSLaunchTests.swift */; };
 		40E6530D2873227D00B49EB8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6530C2873227D00B49EB8 /* Tests_macOS.swift */; };
@@ -17,6 +21,10 @@
 		40E653132873227D00B49EB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E652E92873227C00B49EB8 /* ContentView.swift */; };
 		40E65325287323A900B49EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E65324287323A900B49EB8 /* Assets.xcassets */; };
 		40E65326287323A900B49EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E65324287323A900B49EB8 /* Assets.xcassets */; };
+		40E6532A287324BB00B49EB8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E65329287324BB00B49EB8 /* BaseView.swift */; };
+		40E6532B287324BB00B49EB8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E65329287324BB00B49EB8 /* BaseView.swift */; };
+		40E6532D28732B2E00B49EB8 /* CustomTabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6532C28732B2E00B49EB8 /* CustomTabCurve.swift */; };
+		40E6532E28732B2E00B49EB8 /* CustomTabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6532C28732B2E00B49EB8 /* CustomTabCurve.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		402F80D7287AA4A900FF4369 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		402F80DA287AA68B00FF4369 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
 		40E652E82873227C00B49EB8 /* SwiftUI_FurnitureUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FurnitureUIAppApp.swift; sourceTree = "<group>"; };
 		40E652E92873227C00B49EB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40E652EF2873227D00B49EB8 /* SwiftUI_FurnitureUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_FurnitureUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +59,8 @@
 		40E6530C2873227D00B49EB8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		40E6530E2873227D00B49EB8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		40E65324287323A900B49EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E65329287324BB00B49EB8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		40E6532C28732B2E00B49EB8 /* CustomTabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabCurve.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,8 @@
 		40E652E72873227C00B49EB8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				40E65328287324B000B49EB8 /* Model */,
+				40E65327287324AB00B49EB8 /* View */,
 				40E652E82873227C00B49EB8 /* SwiftUI_FurnitureUIAppApp.swift */,
 				40E652E92873227C00B49EB8 /* ContentView.swift */,
 				40E65324287323A900B49EB8 /* Assets.xcassets */,
@@ -139,6 +153,24 @@
 				40E6530E2873227D00B49EB8 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		40E65327287324AB00B49EB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40E65329287324BB00B49EB8 /* BaseView.swift */,
+				40E6532C28732B2E00B49EB8 /* CustomTabCurve.swift */,
+				402F80D7287AA4A900FF4369 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40E65328287324B000B49EB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				402F80DA287AA68B00FF4369 /* Furniture.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +331,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E6532A287324BB00B49EB8 /* BaseView.swift in Sources */,
 				40E653122873227D00B49EB8 /* ContentView.swift in Sources */,
+				402F80D8287AA4A900FF4369 /* Home.swift in Sources */,
+				40E6532D28732B2E00B49EB8 /* CustomTabCurve.swift in Sources */,
+				402F80DB287AA68B00FF4369 /* Furniture.swift in Sources */,
 				40E653102873227D00B49EB8 /* SwiftUI_FurnitureUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E6532B287324BB00B49EB8 /* BaseView.swift in Sources */,
 				40E653132873227D00B49EB8 /* ContentView.swift in Sources */,
+				402F80D9287AA4A900FF4369 /* Home.swift in Sources */,
+				40E6532E28732B2E00B49EB8 /* CustomTabCurve.swift in Sources */,
+				402F80DC287AA68B00FF4369 /* Furniture.swift in Sources */,
 				40E653112873227D00B49EB8 /* SwiftUI_FurnitureUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
